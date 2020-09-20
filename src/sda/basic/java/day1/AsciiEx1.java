@@ -1,6 +1,6 @@
 package sda.basic.java.day1;
 
-public class Ex1 {
+public class AsciiEx1 {
     public static void main(String[] args) {
         
         displayWordInHex();
@@ -24,9 +24,9 @@ public class Ex1 {
     }
 
     private static void displayWordInDec() {
-        char s = 0+83;
-        char d = 0+68;
-        char a = 0+65;
+        char s = 83;
+        char d = 68;
+        char a = 65;
         System.out.print(s);
         System.out.print(d);
         System.out.print(a);
